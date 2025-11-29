@@ -11,6 +11,9 @@ Features:
 - Game over when lives run out
 - Synthesized sounds and looping background music (no external assets required)
 
+Code Note:
+- lib is a folder inside the folder (final) storing all files, lib is the folder for files like enemy.lua, player.lua etc. So if you see lib anywhere don't get confused.
+
 Run (desktop):
 
 1. Install LOVE2D: https://love2d.org
@@ -23,7 +26,5 @@ love .
 Run in browser:
 - Use love.js / emscripten builds to export to WASM; see https://love2d.org/wiki/love.js
 
-Notes:
-- The project uses generated sounds at runtime so there are no audio files to ship.
-- The code is modular under `lib/`.
+
 
