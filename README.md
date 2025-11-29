@@ -4,7 +4,7 @@ A simple 2D top-down collection game built with LOVE2D (Lua).
 
 Features:
 - Player moves with arrow keys or WASD
-- Items (coins, stars, carrots) spawn randomly
+- Items (gems of different colors) spawn randomly
 - Enemies patrol and chase the player if nearby
 - Traps damage the player
 - Win when required numbers of items are collected
@@ -26,3 +26,4 @@ Run in browser:
 Notes:
 - The project uses generated sounds at runtime so there are no audio files to ship.
 - The code is modular under `lib/`.
+
